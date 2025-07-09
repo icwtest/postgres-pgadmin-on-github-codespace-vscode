@@ -26,7 +26,7 @@ services:
     restart: always          
     environment: 
       POSTGRES_USER: postgresuser
-      POSTGRES_PASSWORD: #Welcome123
+      POSTGRES_PASSWORD: Welcome123
       POSTGRES_DB: demodb
     volumes:                 
       - pg-data:/var/lib/postgresql/data
